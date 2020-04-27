@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.123456789012",
+    "application": {
+      "applicationId": "amzn1.ask.skill.06ff6eea-26df-4296-9787-a2b6a0fd04da"
+    },
+    "attributes": {
+      "speechOutput": "Okay, now that I know what they look like, please set a name for them.",
+      "correctAnswerText": "John",
+      "repromptText": "Please set a name for them. "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.testUser"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.06ff6eea-26df-4296-9787-a2b6a0fd04da"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.testUser"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.1234",
+    "timestamp": "2020-10-27T21:06:28Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "SetNameIntent",
+      "slots": {
+        "UserFirstName": {
+          "name": "UserFirstName",
+          "type": "AMAZON.US_FIRST_NAME",
+          "value": "John",
+          "confirmationStatus": "NONE"
+          }
+        }
+    }
+  }
+}

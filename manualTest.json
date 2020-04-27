@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.123456789012",
+    "application": {
+      "applicationId": "amzn1.ask.skill.06ff6eea-26df-4296-9787-a2b6a0fd04da"
+    },
+    "attributes": {
+      "speechOutput": "who is at the door",
+      "correctAnswerText": "can I take piture",
+      "repromptText": "who is at the door"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.testUser"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.06ff6eea-26df-4296-9787-a2b6a0fd04da"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.testUser"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.1234",
+    "timestamp": "2020-10-27T21:06:28Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "DoorIntent"
+    }
+  }
+}
